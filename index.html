@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhamad Ridwan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Script for structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Muhamad Ridwan",
+        "url": "https://your-portfolio-url.com", 
+        "sameAs": [
+            "https://www.linkedin.com/in/muhamad-ridwan",
+            "https://github.com/muhamadridwan"
+        ],
+        "description": "Portfolio website of Muhamad Ridwan, showcasing personal projects and skills.",
+        "image": "https://your-image-url.com/profile.jpg",
+        "jobTitle": "Student, Web Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Yatsi Madani University"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kampung Tegal Amprok",
+            "addressRegion": "Indonesia"
+        }
+    }
+    </script>
+
+    <style>
+        /* CSS styles remain unchanged */
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            transition: transform 0.3s;
+        }
+
+        .project-item img:hover {
+            transform: scale(1.05);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+
+        .about {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .about h2 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .projects {
+            margin-bottom: 3rem;
+        }
+
+        .projects h2 {
+            font-size: 2.4rem;
+            text-align: center;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .project-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-item {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-item h3 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #4facfe;
+        }
+
+        .project-item p {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #4facfe;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #4facfe;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            display: inline-block;
+            background: #4facfe;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background: #00c6ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Header content here -->
+    </header>
+        
+    <div class="container">
+        <section class="about">
+            <h2>SELAMAT DATANG</h2>
+            <p>Terima kasih sudah mengunjungi website kami. Silakan cari tau siapa pemilik website ini dengan mengklik Tombol di bawah ini.</p>
+            <a href="portofolio.html" class="button">Tentang Saya</a>
+        </section>
+
+        <section class="projects">
+            <h2> PROYEK AKHIR</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Website Portofolio Dengan HTML,Css, Dan json-ld</h3>
+                    <p>Jaringan sematik.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Website Personal Dengan Php dan data base.</h3>
+                    <p>Dasar-Dasar Pemrograman.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Sistem Peminjaman Buku Dengan Python</h3>
+                    <p>Algoritma Dan struktur Data.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Muhamad Ridwan. . <a href="#">Contact Me</a></p>
+    </footer>
+</body>
+</html>
